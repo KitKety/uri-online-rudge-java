@@ -10,9 +10,8 @@ public class P1060 {
 		sc.useLocale(new Locale("US"));
 		int positivos=0;
 		for(int i=0; i<6;i++) {
-			if(sc.nextFloat() > 0) {
+			if(sc.nextFloat() > 0)
 				positivos++;
-			}
 		}
 		sc.close();
 		System.out.printf(positivos + " valores positivos\n");
