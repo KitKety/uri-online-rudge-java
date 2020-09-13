@@ -15,3 +15,6 @@ With time limitations I learned:
   - Strings are imutable (WTF? Whenever you change the content of a "String", in fact a new "String" is created with the new content, because the previous one cannot be changed);
   - If you want to build String content during execution, use StringBuilder (the name makes sense, doesn't it?)
  
+##Locale
+Sometimes we need numbers with default decimal separators (.), and this "default" isn't the real default here.
+To fix this we can use Locale.setDefault(), sending as param the locale that we want.
